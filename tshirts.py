@@ -11,4 +11,6 @@ def size(cms):
 assert(size(37) == 'S')
 assert(size(40) == 'M')
 assert(size(43) == 'L')
+# Fails: 38 is not included in 'M' range, wrongly returns 'L'
+assert(size(38) == 'M')
 print("All is well (maybe!)")
