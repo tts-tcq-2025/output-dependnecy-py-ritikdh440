@@ -62,3 +62,6 @@ def test_color_map_formatting():
     )
     
     assert output == expected_output, "Output formatting is misaligned or incorrect!"
+
+test_color_map_length()
+test_color_map_formatting()
